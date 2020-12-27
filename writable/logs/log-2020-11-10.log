@@ -1,0 +1,447 @@
+CRITICAL - 2020-11-10 01:25:09 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:25:25 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\app\Models\Mahasiswa_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:25:51 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Agama.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:27:01 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:31:02 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:31:17 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:33:23 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:35:40 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:35:55 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\app\Models\Mahasiswa_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:37:48 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:38:59 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:39:45 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:42:07 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:42:17 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:42:53 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:43:06 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\app\Models\Mahasiswa_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:46:38 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\app\Models\Mahasiswa_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:47:49 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:48:04 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\app\Models\Mahasiswa_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:50:52 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:51:08 --> Call to a member function getFlashdata() on null
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#5 {main}
+CRITICAL - 2020-11-10 01:51:21 --> Argument 2 passed to view() must be of the type array, null given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): view('program_studi_v', NULL)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:52:08 --> Call to a member function get() on null
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#5 {main}
+CRITICAL - 2020-11-10 01:52:13 --> Call to a member function get() on null
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#5 {main}
+CRITICAL - 2020-11-10 01:52:21 --> Call to a member function getFlashdata() on null
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#5 {main}
+CRITICAL - 2020-11-10 01:54:07 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:56:37 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:56:58 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:57:08 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:57:31 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 01:57:57 --> Argument 2 passed to view() must be of the type array, null given, called in E:\WEB\pert8\app\Controllers\Hobi.php on line 17
+#0 E:\WEB\pert8\app\Controllers\Hobi.php(17): view('hobi_v', NULL)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:58:12 --> Argument 2 passed to view() must be of the type array, null given, called in E:\WEB\pert8\app\Controllers\Hobi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Hobi.php(13): view('hobi_v', NULL)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 01:59:51 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:00:02 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Hobi.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:21:51 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Agama.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:21:51 --> Use of undefined constant tes - assumed 'tes' (this will throw an Error in a future version of PHP)
+#0 E:\WEB\pert8\app\Controllers\Hobi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\WEB\\pert8\\ap...', 24, Array)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Hobi->index()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hobi))
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:26:01 --> Argument 2 passed to view() must be of the type array, null given, called in E:\WEB\pert8\app\Controllers\Agama.php on line 19
+#0 E:\WEB\pert8\app\Controllers\Agama.php(19): view('agama_v', NULL)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:26:46 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Agama.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:27:50 --> Unable to connect to the database.
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert8\app\Controllers\Agama.php(16): CodeIgniter\Model->findAll()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:28:00 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:28:28 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:28:36 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:28:40 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:29:15 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:29:45 --> Call to a member function get() on null
+#0 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#5 {main}
+CRITICAL - 2020-11-10 02:30:10 --> Invalid argument supplied for foreach()
+#0 E:\WEB\pert8\app\Views\program_studi_v.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\WEB\\pert8\\ap...', 32, Array)
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\WEB\\pert8\\ap...')
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#3 E:\WEB\pert8\app\Controllers\Program_Studi.php(21): view('program_studi_v', Array)
+#4 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#6 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#9 {main}
+CRITICAL - 2020-11-10 02:32:11 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:32:29 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}
+CRITICAL - 2020-11-10 02:32:47 --> Argument 1 passed to App\Models\Program_Studi_Model::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in E:\WEB\pert8\app\Controllers\Program_Studi.php on line 13
+#0 E:\WEB\pert8\app\Controllers\Program_Studi.php(13): App\Models\Program_Studi_Model->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Program_Studi->__construct()
+#2 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 E:\WEB\pert8\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\WEB\pert8\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\WEB\pert8\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert8\\pu...')
+#6 {main}

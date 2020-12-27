@@ -1,0 +1,11 @@
+CRITICAL - 2020-11-05 07:13:40 --> Unable to connect to the database.
+#0 E:\WEB\pert6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\pert6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\pert6\app\Models\Program_Studi_Model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\pert6\app\Controllers\Program_Studi.php(18): App\Models\Program_Studi_Model->get()
+#4 E:\WEB\pert6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#5 E:\WEB\pert6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#6 E:\WEB\pert6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\pert6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\pert6\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\pert6\\pu...')
+#9 {main}
